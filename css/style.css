@@ -4,7 +4,7 @@
     box-sizing: border-box;
     font-family: "Roboto", sans-serif;
     background-color: #181A1B;
-    color: white;
+    color: #e6e6e6;
 }
 
 html,body{
@@ -35,7 +35,7 @@ header div.acessar input[type=submit]{
     margin-right: 40px;
     float: right;
     font-size: 16px;
-    background-color: rgb(30, 172, 200);
+    background-color: #1eacc8;
     color: #e6e6e6;
     height: 5vh;
     width: 11vh;
@@ -64,22 +64,24 @@ section .chamada-1, .chamada-texto{
 .chamada-texto h2{
     font-size: 35px;
     margin-bottom: 30px;
+    font-weight: normal;
 }
 
 .chamada-texto p{
     font-size: 18px;
     width: 100%;
+    font-weight: normal;
 }
 
 section div.chamada-texto input[type=submit]{
     margin-top: 50px;
     margin-right: 40px;
     float: left;
-    font-size: 17px;
-    background-color: rgb(30, 172, 200);
-    color: #e6e6e6;
-    height: 6vh;
-    width: 34vh;
+    font-size: 20px;
+    background-color: #1eacc8;
+    color: white;
+    height: 10vh;
+    width: 39vh;
     border-right: 0;
     border-left: 0;
     border-top: 0;
@@ -90,4 +92,52 @@ section div.chamada-texto input[type=submit]{
 section .chamada-1, .chamada-video{
     float: right;
     width: 45%;
+}
+
+section.chamada-2{
+    padding: 10px 80px;
+    max-width: 1680px;
+    padding: 0 2%;
+    margin:0 auto;
+    margin-top: 110px;
+}
+
+section.chamdada-2, .chamada-icon{
+	display: flex;
+	flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.chamada-icon{
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.chamada-icon-text{
+    width: 50%;
+
+}
+
+section.chamada-2 img{
+    float: left;
+    height: 22vh;
+    width: 22vh;
+
+}
+
+section.chamada-2 > h2{
+    float: right;
+    width: 50%;
+}
+
+.chamada-2 h2{
+    font-size: 30px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+.chamada-2 p{
+    font-size: 18px;
+    font-weight: normal;
 }
