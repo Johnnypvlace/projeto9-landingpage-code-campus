@@ -141,3 +141,78 @@ section.chamada-2 > h2{
     font-size: 18px;
     font-weight: normal;
 }
+
+section.chamada-3{
+    padding: 10px 80px;
+    max-width: 1680px;
+    padding: 0 2%;
+    margin:0 auto;
+    margin-top: 40px;
+}
+
+section.chamada-3 h2{
+    font-weight: normal;
+    text-align: center;
+}
+
+section,.container > .chamada-depoimentos{
+	display: flex;
+	flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; 
+}
+
+section.chamada-3 img{
+    width: 34vh;
+    height: 38vh;
+}
+
+section.chamada-4{
+    padding: 10px 80px;
+    max-width: 1680px;
+    padding: 0 2%;
+    margin:0 auto;
+    margin-top: 40px;
+}
+
+section.chamada-4 h2{
+    font-weight: normal;
+}
+
+section.chamdada-4, .chamada-icon{
+	display: flex;
+	flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.chamada-aprendizado{
+    width: 100%;
+    margin-bottom: 70px;
+}
+
+.chamada-aprendizado-text{
+    width: 100%;
+}
+
+section.chamada-4 img{
+    float: left;
+    height: 12vh;
+    width: 12vh;
+
+}
+
+section.chamada-4 > h2{
+    width: 50%;
+}
+
+.chamada-4 h2{
+    font-size: 30px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+.chamada-4 p{
+    font-size: 18px;
+    font-weight: normal;
+}
