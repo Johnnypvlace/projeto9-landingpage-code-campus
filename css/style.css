@@ -77,7 +77,7 @@ section div.chamada-texto input[type=submit]{
     margin-top: 50px;
     margin-right: 40px;
     float: left;
-    font-size: 20px;
+    font-size: 18px;
     background-color: #1eacc8;
     color: white;
     height: 10vh;
@@ -215,4 +215,28 @@ section.chamada-4 > h2{
 .chamada-4 p{
     font-size: 18px;
     font-weight: normal;
+}
+
+section.chamada-5{
+    padding: 10px 80px;
+    max-width: 1680px;
+    padding: 0 2%;
+    margin:0 auto;
+    margin-top: 40px;
+}
+
+section.chamada-5 .perguntasfrequentes h2{
+    align-items: left; 
+    margin-bottom: 30px;
+    margin-left: 3px;
+    font-weight: 400;
+    height: 6vh;
+    background-color: #262A2B;
+    line-height: 6vh;
+    font-size: 22px;
+}
+
+section.chamada-5 .perguntasfrequentes p {
+    align-items: left; 
+    margin-bottom: 35px;
 }
