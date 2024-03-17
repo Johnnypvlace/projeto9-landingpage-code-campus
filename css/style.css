@@ -240,3 +240,73 @@ section.chamada-5 .perguntasfrequentes p {
     align-items: left; 
     margin-bottom: 35px;
 }
+
+section.chamada-6{
+    padding: 10px 80px;
+    max-width: 1680px;
+    padding: 0 2%;
+    margin:0 auto;
+    margin-top: 40px;
+}
+
+.chamada-6{
+    display: flex;
+    text-align: center;
+}
+
+.chamada-garantia > p{
+    float: right;
+    width: 50%;
+    margin-top: 60px;
+    margin-right: 200px;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.chamada-garantia > img{
+    float: left;
+    width: 20%;
+    margin-left: 200px;
+}
+
+section div.chamada-garantia input[type=submit]{
+    margin-top: 50px;
+    margin-right: 40px;
+    float: center;
+    font-size: 18px;
+    background-color: #1eacc8;
+    color: white;
+    height: 6vh;
+    width: 29vh;
+    border-right: 0;
+    border-left: 0;
+    border-top: 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer{
+    margin-top: 100px;
+    padding: 40px 2%;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+}
+
+footer .logo-2{
+    background-image: url(../images/logo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 220px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer p:nth-of-type(1){
+    float: left;
+}
+
+footer p:nth-of-type(2){
+    float: right;
+}
